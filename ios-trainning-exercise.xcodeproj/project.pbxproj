@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B2832A11BDEB0BA00DA5F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2832A01BDEB0BA00DA5F46 /* main.m */; };
-		3B2832A41BDEB0BA00DA5F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2832A31BDEB0BA00DA5F46 /* AppDelegate.m */; };
-		3B2832A71BDEB0BA00DA5F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2832A61BDEB0BA00DA5F46 /* ViewController.m */; };
-		3B2832AA1BDEB0BA00DA5F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2832A81BDEB0BA00DA5F46 /* Main.storyboard */; };
-		3B2832AC1BDEB0BA00DA5F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2832AB1BDEB0BA00DA5F46 /* Assets.xcassets */; };
-		3B2832AF1BDEB0BA00DA5F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2832AD1BDEB0BA00DA5F46 /* LaunchScreen.storyboard */; };
 		3B2832BA1BDEB0BA00DA5F46 /* ios_trainning_exerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2832B91BDEB0BA00DA5F46 /* ios_trainning_exerciseTests.m */; };
 		3B2832C51BDEB0BB00DA5F46 /* ios_trainning_exerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2832C41BDEB0BB00DA5F46 /* ios_trainning_exerciseUITests.m */; };
+		3B2832F71BDEB13300DA5F46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2832EA1BDEB13200DA5F46 /* AppDelegate.m */; };
+		3B2832F81BDEB13300DA5F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B2832EB1BDEB13200DA5F46 /* Assets.xcassets */; };
+		3B2832F91BDEB13300DA5F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2832ED1BDEB13200DA5F46 /* LaunchScreen.storyboard */; };
+		3B2832FA1BDEB13300DA5F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B2832EF1BDEB13200DA5F46 /* Main.storyboard */; };
+		3B2832FB1BDEB13300DA5F46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2832F31BDEB13200DA5F46 /* ViewController.m */; };
+		3B2832FD1BDEB13300DA5F46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2832F61BDEB13300DA5F46 /* main.m */; };
+		3B28330C1BDEB63500DA5F46 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28330B1BDEB63500DA5F46 /* FirstViewController.m */; };
+		3B28330F1BDEB65500DA5F46 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28330E1BDEB65500DA5F46 /* SecondViewController.m */; };
+		3B2833121BDEB66800DA5F46 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2833111BDEB66800DA5F46 /* ThirdViewController.m */; };
+		3B2833151BDEB67D00DA5F46 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2833141BDEB67D00DA5F46 /* FourthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +40,29 @@
 
 /* Begin PBXFileReference section */
 		3B28329C1BDEB0BA00DA5F46 /* ios-trainning-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-trainning-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B2832A01BDEB0BA00DA5F46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B2832A21BDEB0BA00DA5F46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3B2832A31BDEB0BA00DA5F46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B2832A51BDEB0BA00DA5F46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B2832A61BDEB0BA00DA5F46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B2832A91BDEB0BA00DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3B2832AB1BDEB0BA00DA5F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3B2832AE1BDEB0BA00DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3B2832B01BDEB0BA00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B2832B51BDEB0BA00DA5F46 /* ios-trainning-exerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-trainning-exerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2832B91BDEB0BA00DA5F46 /* ios_trainning_exerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_trainning_exerciseTests.m; sourceTree = "<group>"; };
 		3B2832BB1BDEB0BB00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B2832C01BDEB0BB00DA5F46 /* ios-trainning-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-trainning-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2832C41BDEB0BB00DA5F46 /* ios_trainning_exerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_trainning_exerciseUITests.m; sourceTree = "<group>"; };
 		3B2832C61BDEB0BB00DA5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2832E91BDEB13200DA5F46 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B2832EA1BDEB13200DA5F46 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B2832EB1BDEB13200DA5F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		3B2832EE1BDEB13200DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B2832F01BDEB13200DA5F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B2832F21BDEB13200DA5F46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B2832F31BDEB13200DA5F46 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B2832F51BDEB13300DA5F46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2832F61BDEB13300DA5F46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B28330A1BDEB63500DA5F46 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3B28330B1BDEB63500DA5F46 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3B28330D1BDEB65500DA5F46 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3B28330E1BDEB65500DA5F46 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3B2833101BDEB66800DA5F46 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3B2833111BDEB66800DA5F46 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3B2833131BDEB67D00DA5F46 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		3B2833141BDEB67D00DA5F46 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,25 +113,12 @@
 		3B28329E1BDEB0BA00DA5F46 /* ios-trainning-exercise */ = {
 			isa = PBXGroup;
 			children = (
-				3B2832A21BDEB0BA00DA5F46 /* AppDelegate.h */,
-				3B2832A31BDEB0BA00DA5F46 /* AppDelegate.m */,
-				3B2832A51BDEB0BA00DA5F46 /* ViewController.h */,
-				3B2832A61BDEB0BA00DA5F46 /* ViewController.m */,
-				3B2832A81BDEB0BA00DA5F46 /* Main.storyboard */,
-				3B2832AB1BDEB0BA00DA5F46 /* Assets.xcassets */,
-				3B2832AD1BDEB0BA00DA5F46 /* LaunchScreen.storyboard */,
-				3B2832B01BDEB0BA00DA5F46 /* Info.plist */,
-				3B28329F1BDEB0BA00DA5F46 /* Supporting Files */,
+				3B2832F11BDEB13200DA5F46 /* Controller */,
+				3B2832E81BDEB13200DA5F46 /* AppDelegate */,
+				3B2832EC1BDEB13200DA5F46 /* Ressources */,
+				3B2832F41BDEB13200DA5F46 /* Supporting Files */,
 			);
 			path = "ios-trainning-exercise";
-			sourceTree = "<group>";
-		};
-		3B28329F1BDEB0BA00DA5F46 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3B2832A01BDEB0BA00DA5F46 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		3B2832B81BDEB0BA00DA5F46 /* ios-trainning-exerciseTests */ = {
@@ -138,6 +137,52 @@
 				3B2832C61BDEB0BB00DA5F46 /* Info.plist */,
 			);
 			path = "ios-trainning-exerciseUITests";
+			sourceTree = "<group>";
+		};
+		3B2832E81BDEB13200DA5F46 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B2832E91BDEB13200DA5F46 /* AppDelegate.h */,
+				3B2832EA1BDEB13200DA5F46 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3B2832EC1BDEB13200DA5F46 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				3B2832EB1BDEB13200DA5F46 /* Assets.xcassets */,
+				3B2832ED1BDEB13200DA5F46 /* LaunchScreen.storyboard */,
+				3B2832EF1BDEB13200DA5F46 /* Main.storyboard */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		3B2832F11BDEB13200DA5F46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B2832F21BDEB13200DA5F46 /* ViewController.h */,
+				3B2832F31BDEB13200DA5F46 /* ViewController.m */,
+				3B28330A1BDEB63500DA5F46 /* FirstViewController.h */,
+				3B28330B1BDEB63500DA5F46 /* FirstViewController.m */,
+				3B28330D1BDEB65500DA5F46 /* SecondViewController.h */,
+				3B28330E1BDEB65500DA5F46 /* SecondViewController.m */,
+				3B2833101BDEB66800DA5F46 /* ThirdViewController.h */,
+				3B2833111BDEB66800DA5F46 /* ThirdViewController.m */,
+				3B2833131BDEB67D00DA5F46 /* FourthViewController.h */,
+				3B2833141BDEB67D00DA5F46 /* FourthViewController.m */,
+			);
+			name = Controller;
+			path = Ressources/Controller;
+			sourceTree = "<group>";
+		};
+		3B2832F41BDEB13200DA5F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B2832F51BDEB13300DA5F46 /* Info.plist */,
+				3B2832F61BDEB13300DA5F46 /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2832AF1BDEB0BA00DA5F46 /* LaunchScreen.storyboard in Resources */,
-				3B2832AC1BDEB0BA00DA5F46 /* Assets.xcassets in Resources */,
-				3B2832AA1BDEB0BA00DA5F46 /* Main.storyboard in Resources */,
+				3B2832F81BDEB13300DA5F46 /* Assets.xcassets in Resources */,
+				3B2832FA1BDEB13300DA5F46 /* Main.storyboard in Resources */,
+				3B2832F91BDEB13300DA5F46 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B2832A71BDEB0BA00DA5F46 /* ViewController.m in Sources */,
-				3B2832A41BDEB0BA00DA5F46 /* AppDelegate.m in Sources */,
-				3B2832A11BDEB0BA00DA5F46 /* main.m in Sources */,
+				3B28330F1BDEB65500DA5F46 /* SecondViewController.m in Sources */,
+				3B2832F71BDEB13300DA5F46 /* AppDelegate.m in Sources */,
+				3B2833121BDEB66800DA5F46 /* ThirdViewController.m in Sources */,
+				3B2832FD1BDEB13300DA5F46 /* main.m in Sources */,
+				3B2832FB1BDEB13300DA5F46 /* ViewController.m in Sources */,
+				3B2833151BDEB67D00DA5F46 /* FourthViewController.m in Sources */,
+				3B28330C1BDEB63500DA5F46 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +357,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B2832A81BDEB0BA00DA5F46 /* Main.storyboard */ = {
+		3B2832ED1BDEB13200DA5F46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3B2832A91BDEB0BA00DA5F46 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3B2832AD1BDEB0BA00DA5F46 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B2832AE1BDEB0BA00DA5F46 /* Base */,
+				3B2832EE1BDEB13200DA5F46 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3B2832EF1BDEB13200DA5F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B2832F01BDEB13200DA5F46 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-trainning-exercise/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-trainning-exercise/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.locaweb.ios-trainning-exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-trainning-exercise/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ios-trainning-exercise/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.test.locaweb.ios-trainning-exercise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
